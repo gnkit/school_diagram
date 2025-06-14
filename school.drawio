@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.1.5">
+  <diagram name="Бизнес-модель - Уровни" id="5fumYt1_q0X76P0Ny7Ue">
+    <mxGraphModel dx="1360" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xZNSSZ8cDpCfPNqEs-20-1" value="������ Бизнес-модель школьного приложения (B2G/SaaS)" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="20" width="600" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xZNSSZ8cDpCfPNqEs-20-2" value="&lt;div&gt;&lt;b&gt;Администратор платформы&lt;/b&gt;&lt;/div&gt;&lt;div&gt;управляет школами, методами генерации, мониторингом&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xZNSSZ8cDpCfPNqEs-20-3" value="&lt;div&gt;&lt;b&gt;Школа&lt;/b&gt;&lt;/div&gt;&lt;div&gt;создаёт свои классы, учителей, указывает смены, часы, редактирует план&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xZNSSZ8cDpCfPNqEs-20-4" value="&lt;div&gt;&lt;b&gt;Алгоритм генерации расписания&lt;/b&gt;&lt;/div&gt;&lt;div&gt;получает данные от школы, генерирует расписание, учитывая ограничения&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xZNSSZ8cDpCfPNqEs-20-5" style="endArrow=block;html=1;" edge="1" parent="1" source="xZNSSZ8cDpCfPNqEs-20-2" target="xZNSSZ8cDpCfPNqEs-20-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xZNSSZ8cDpCfPNqEs-20-6" style="endArrow=block;html=1;" edge="1" parent="1" source="xZNSSZ8cDpCfPNqEs-20-3" target="xZNSSZ8cDpCfPNqEs-20-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
