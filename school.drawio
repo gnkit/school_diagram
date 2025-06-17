@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.1.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.1.6">
   <diagram name="Бизнес-модель - Уровни" id="5fumYt1_q0X76P0Ny7Ue">
-    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1305" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xZNSSZ8cDpCfPNqEs-20-1" value="������ Бизнес-модель школьного приложения (B2G/SaaS)" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="xZNSSZ8cDpCfPNqEs-20-1" value="Бизнес-модель школьного приложения (B2G/SaaS)" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="20" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xZNSSZ8cDpCfPNqEs-20-2" value="&lt;div&gt;&lt;b&gt;Администратор платформы&lt;/b&gt;&lt;/div&gt;&lt;div&gt;управляет школами, методами генерации, мониторингом&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" parent="1" vertex="1">
@@ -22,123 +22,123 @@
         <mxCell id="xZNSSZ8cDpCfPNqEs-20-6" style="endArrow=block;html=1;" parent="1" source="xZNSSZ8cDpCfPNqEs-20-3" target="xZNSSZ8cDpCfPNqEs-20-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m693QWKLnxOtPAUiiWvI-25" value="������ Модульная бизнес-архитектура школьного приложения" style="text;html=1;fontSize=18;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="m693QWKLnxOtPAUiiWvI-25" value="Модульная бизнес-архитектура школьного приложения" style="text;html=1;fontSize=18;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="430" width="700" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-31" value="2. Учебный процесс" style="swimlane;fillColor=#E1D5E7;" vertex="1" parent="1">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-31" value="2. Учебный процесс" style="swimlane;fillColor=#E1D5E7;" parent="1" vertex="1">
           <mxGeometry x="560" y="480" width="400" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-32" value="ShiftSetting&#xa;Настройка по сменам (длительность, начало, урок №)" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-31">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-32" value="ShiftSetting&#xa;Настройка по сменам (длительность, начало, урок №)" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" parent="EPOyYlnTPU7XkNbMb3hj-31" vertex="1">
           <mxGeometry x="40.01" y="360" width="319.99" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-33" value="Period&#xa;Учет четвертей/триместров (опционально)" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-31">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-33" value="Period&#xa;Учет четвертей/триместров (опционально)" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" parent="EPOyYlnTPU7XkNbMb3hj-31" vertex="1">
           <mxGeometry x="40" y="440" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-34" value="Subject&#xa;Предмет: типовой, профильный, факультатив" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-31">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-34" value="Subject&#xa;Предмет: типовой, профильный, факультатив" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" parent="EPOyYlnTPU7XkNbMb3hj-31" vertex="1">
           <mxGeometry x="40.01" y="200" width="319.99" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-35" value="ClassGroup&#xa;Подгруппа класса (например, информатика делится)" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-31">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-35" value="ClassGroup&#xa;Подгруппа класса (например, информатика делится)" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" parent="EPOyYlnTPU7XkNbMb3hj-31" vertex="1">
           <mxGeometry x="40.01" y="120" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-36" value="ClassSubjectPlan&#xa;Учебный план по классу (тип предмета + часы)" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-31">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-36" value="ClassSubjectPlan&#xa;Учебный план по классу (тип предмета + часы)" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" parent="EPOyYlnTPU7XkNbMb3hj-31" vertex="1">
           <mxGeometry x="40.01" y="280" width="319.99" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-37" value="Classroom&#xa;Класс (0–12), привязан к школе и смене" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-31">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-37" value="Classroom&#xa;Класс (0–12), привязан к школе и смене" style="rounded=1;whiteSpace=wrap;fillColor=#E1D5E7;" parent="EPOyYlnTPU7XkNbMb3hj-31" vertex="1">
           <mxGeometry x="38.34" y="40" width="321.66" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-38" value="3. Штатное расписание" style="swimlane;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-38" value="3. Штатное расписание" style="swimlane;fillColor=#FFE6CC;" parent="1" vertex="1">
           <mxGeometry x="1040" y="480" width="400" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-39" value="Cabinet&#xa;Учебный кабинет (по предмету, типу)" style="rounded=1;whiteSpace=wrap;fillColor=#FFE6CC;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-38">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-39" value="Cabinet&#xa;Учебный кабинет (по предмету, типу)" style="rounded=1;whiteSpace=wrap;fillColor=#FFE6CC;" parent="EPOyYlnTPU7XkNbMb3hj-38" vertex="1">
           <mxGeometry x="40" y="200" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-40" value="Teacher&#xa;Учитель школы" style="rounded=1;whiteSpace=wrap;fillColor=#FFE6CC;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-38">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-40" value="Teacher&#xa;Учитель школы" style="rounded=1;whiteSpace=wrap;fillColor=#FFE6CC;" parent="EPOyYlnTPU7XkNbMb3hj-38" vertex="1">
           <mxGeometry x="40" y="40" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-41" value="TeacherLoad&#xa;Учебная нагрузка: ФИО + предмет + класс/группа + часы" style="rounded=1;whiteSpace=wrap;fillColor=#FFE6CC;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-38">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-41" value="TeacherLoad&#xa;Учебная нагрузка: ФИО + предмет + класс/группа + часы" style="rounded=1;whiteSpace=wrap;fillColor=#FFE6CC;" parent="EPOyYlnTPU7XkNbMb3hj-38" vertex="1">
           <mxGeometry x="40" y="120" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-42" value="1. Школа и пользователи" style="swimlane;fillColor=#DAE8FC;" vertex="1" parent="1">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-42" value="1. Школа и пользователи" style="swimlane;fillColor=#DAE8FC;" parent="1" vertex="1">
           <mxGeometry x="80" y="480" width="400" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-43" value="Role&#xa;Доступ (директор, админ, учитель, техподдержка)" style="rounded=1;whiteSpace=wrap;fillColor=#DAE8FC;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-42">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-43" value="Role&#xa;Доступ (директор, админ, учитель, техподдержка)" style="rounded=1;whiteSpace=wrap;fillColor=#DAE8FC;" parent="EPOyYlnTPU7XkNbMb3hj-42" vertex="1">
           <mxGeometry x="40" y="200" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-44" value="School&#xa;Школа в системе" style="rounded=1;whiteSpace=wrap;fillColor=#DAE8FC;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-42">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-44" value="School&#xa;Школа в системе" style="rounded=1;whiteSpace=wrap;fillColor=#DAE8FC;" parent="EPOyYlnTPU7XkNbMb3hj-42" vertex="1">
           <mxGeometry x="40" y="40" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-45" value="User&#xa;Сотрудник школы (директор, завуч)" style="rounded=1;whiteSpace=wrap;fillColor=#DAE8FC;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-42">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-45" value="User&#xa;Сотрудник школы (директор, завуч)" style="rounded=1;whiteSpace=wrap;fillColor=#DAE8FC;" parent="EPOyYlnTPU7XkNbMb3hj-42" vertex="1">
           <mxGeometry x="40" y="120" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-46" value="4. Расписание" style="swimlane;fillColor=#D5E8D4;" vertex="1" parent="1">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-46" value="4. Расписание" style="swimlane;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="280" y="1040" width="400" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-47" value="ScheduleCell&#xa;Конкретная ячейка: день, урок №, класс/группа, учитель, предмет" style="rounded=1;whiteSpace=wrap;fillColor=#D5E8D4;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-46">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-47" value="ScheduleCell&#xa;Конкретная ячейка: день, урок №, класс/группа, учитель, предмет" style="rounded=1;whiteSpace=wrap;fillColor=#D5E8D4;" parent="EPOyYlnTPU7XkNbMb3hj-46" vertex="1">
           <mxGeometry x="40" y="120" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-48" value="ScheduleRequest&#xa;Заявка на генерацию расписания (по состоянию школы)" style="rounded=1;whiteSpace=wrap;fillColor=#D5E8D4;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-46">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-48" value="ScheduleRequest&#xa;Заявка на генерацию расписания (по состоянию школы)" style="rounded=1;whiteSpace=wrap;fillColor=#D5E8D4;" parent="EPOyYlnTPU7XkNbMb3hj-46" vertex="1">
           <mxGeometry x="40" y="40" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-49" value="TimeSlot&#xa;Глобальное расписание по сменам (начало-конец, длительность)" style="rounded=1;whiteSpace=wrap;fillColor=#D5E8D4;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-46">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-49" value="TimeSlot&#xa;Глобальное расписание по сменам (начало-конец, длительность)" style="rounded=1;whiteSpace=wrap;fillColor=#D5E8D4;" parent="EPOyYlnTPU7XkNbMb3hj-46" vertex="1">
           <mxGeometry x="40" y="200" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-50" value="5. Генерация и контроль" style="swimlane;fillColor=#F8CECC;container=0;" vertex="1" parent="1">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-50" value="5. Генерация и контроль" style="swimlane;fillColor=#F8CECC;container=0;" parent="1" vertex="1">
           <mxGeometry x="840" y="1040" width="400" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-51" value="GenerationEngine&#xa;Сервис/микросервис генерации расписания" style="rounded=1;whiteSpace=wrap;fillColor=#F8CECC;container=0;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-50">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-51" value="GenerationEngine&#xa;Сервис/микросервис генерации расписания" style="rounded=1;whiteSpace=wrap;fillColor=#F8CECC;container=0;" parent="EPOyYlnTPU7XkNbMb3hj-50" vertex="1">
           <mxGeometry x="40.01" y="40" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-52" value="GenerationLog&#xa;Лог ошибок, коллизий, пропущенных уроков" style="rounded=1;whiteSpace=wrap;fillColor=#F8CECC;container=0;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-50">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-52" value="GenerationLog&#xa;Лог ошибок, коллизий, пропущенных уроков" style="rounded=1;whiteSpace=wrap;fillColor=#F8CECC;container=0;" parent="EPOyYlnTPU7XkNbMb3hj-50" vertex="1">
           <mxGeometry x="40.01" y="120" width="319.99" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-53" value="GenerationStats&#xa;Нагрузка на учителей, занятость кабинетов, коллизии" style="rounded=1;whiteSpace=wrap;fillColor=#F8CECC;container=0;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-50">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-53" value="GenerationStats&#xa;Нагрузка на учителей, занятость кабинетов, коллизии" style="rounded=1;whiteSpace=wrap;fillColor=#F8CECC;container=0;" parent="EPOyYlnTPU7XkNbMb3hj-50" vertex="1">
           <mxGeometry x="40.01" y="200" width="319.99" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-54" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-54" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="140" y="1590" width="1000" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-60" value="Алгоритм генерации" style="swimlane;horizontal=0;fillColor=#fff3e0;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-54">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-60" value="Алгоритм генерации" style="swimlane;horizontal=0;fillColor=#fff3e0;" parent="EPOyYlnTPU7XkNbMb3hj-54" vertex="1">
           <mxGeometry x="-20" y="210" width="1000" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-61" value="������ ScheduleRequest создан" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe0b2;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-60">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-61" value="ScheduleRequest создан" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe0b2;" parent="EPOyYlnTPU7XkNbMb3hj-60" vertex="1">
           <mxGeometry x="80" y="40" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-62" value="⚙️ Генерация расписания&#xa;— получает данные&#xa;— строит расписание&#xa;— возвращает ScheduleCell[]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe0b2;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-60">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-62" value="Генерация расписания&lt;br&gt;— получает данные&lt;br&gt;— строит расписание&lt;br&gt;— возвращает ScheduleCell[]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe0b2;" parent="EPOyYlnTPU7XkNbMb3hj-60" vertex="1">
           <mxGeometry x="330" y="80" width="320" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-63" value="������ GenerationLog&#xa;— ошибки&#xa;— коллизии" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe0b2;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-60">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-63" value="GenerationLog&lt;br&gt;— ошибки&lt;br&gt;— коллизии" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe0b2;" parent="EPOyYlnTPU7XkNbMb3hj-60" vertex="1">
           <mxGeometry x="780" y="100" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-64" style="endArrow=block;" edge="1" parent="EPOyYlnTPU7XkNbMb3hj-60" source="EPOyYlnTPU7XkNbMb3hj-61" target="EPOyYlnTPU7XkNbMb3hj-62">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-64" style="endArrow=block;" parent="EPOyYlnTPU7XkNbMb3hj-60" source="EPOyYlnTPU7XkNbMb3hj-61" target="EPOyYlnTPU7XkNbMb3hj-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-65" style="endArrow=block;" edge="1" parent="EPOyYlnTPU7XkNbMb3hj-60" source="EPOyYlnTPU7XkNbMb3hj-62" target="EPOyYlnTPU7XkNbMb3hj-63">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-65" style="endArrow=block;" parent="EPOyYlnTPU7XkNbMb3hj-60" source="EPOyYlnTPU7XkNbMb3hj-62" target="EPOyYlnTPU7XkNbMb3hj-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-57" value="������ Нажимает &quot;Сгенерировать расписание&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-54">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-57" value="Нажимает &quot;Сгенерировать расписание&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;" parent="EPOyYlnTPU7XkNbMb3hj-54" vertex="1">
           <mxGeometry x="300" y="30" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-66" style="endArrow=block;" edge="1" parent="EPOyYlnTPU7XkNbMb3hj-54" source="EPOyYlnTPU7XkNbMb3hj-57" target="EPOyYlnTPU7XkNbMb3hj-61">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-66" style="endArrow=block;" parent="EPOyYlnTPU7XkNbMb3hj-54" source="EPOyYlnTPU7XkNbMb3hj-57" target="EPOyYlnTPU7XkNbMb3hj-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-58" value="������ Получает результат&#xa;— редактирует&#xa;— утверждает / печатает" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-54">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-58" value="Получает результат&lt;br&gt;— редактирует&lt;br&gt;— утверждает / печатает" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;" parent="EPOyYlnTPU7XkNbMb3hj-54" vertex="1">
           <mxGeometry x="640" y="30" width="320" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-67" style="endArrow=block;" edge="1" parent="EPOyYlnTPU7XkNbMb3hj-54" source="EPOyYlnTPU7XkNbMb3hj-62" target="EPOyYlnTPU7XkNbMb3hj-58">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-67" style="endArrow=block;" parent="EPOyYlnTPU7XkNbMb3hj-54" source="EPOyYlnTPU7XkNbMb3hj-62" target="EPOyYlnTPU7XkNbMb3hj-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-69" value="������ Жизненный цикл (BPMN-подход)" style="text;html=1;fontSize=18;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-69" value="Жизненный цикл (BPMN-подход)" style="text;html=1;fontSize=18;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1400" width="700" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-55" value="Школа" style="swimlane;horizontal=0;fillColor=#e3f2fd;" vertex="1" parent="1">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-55" value="Школа" style="swimlane;horizontal=0;fillColor=#e3f2fd;" parent="1" vertex="1">
           <mxGeometry x="120" y="1480" width="1000" height="250" as="geometry">
             <mxRectangle width="40" height="70" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-56" value="������ Заполнение данных&#xa;— классы, подгруппы&#xa;— смены, ТУП РК, кабинеты" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;" vertex="1" parent="EPOyYlnTPU7XkNbMb3hj-55">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-56" value="Заполнение данных&lt;br&gt;— классы, подгруппы&lt;br&gt;— смены, ТУП РК, кабинеты" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;" parent="EPOyYlnTPU7XkNbMb3hj-55" vertex="1">
           <mxGeometry x="50" y="20" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EPOyYlnTPU7XkNbMb3hj-59" style="endArrow=block;" edge="1" parent="1" source="EPOyYlnTPU7XkNbMb3hj-56" target="EPOyYlnTPU7XkNbMb3hj-57">
+        <mxCell id="EPOyYlnTPU7XkNbMb3hj-59" style="endArrow=block;" parent="1" source="EPOyYlnTPU7XkNbMb3hj-56" target="EPOyYlnTPU7XkNbMb3hj-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
